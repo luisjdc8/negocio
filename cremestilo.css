@@ -1,0 +1,155 @@
+body {
+    font-family: Helvetica;
+    font-size: 1em;
+    color: black;
+    text-align:center;
+}
+.mayoria{background-color:#EFF1DE   ;
+
+
+
+}
+header{
+    font-family:Tahoma;
+    color:white;
+}
+.barraInicial {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+    
+}
+.acceso{display:none;
+    width:6em;
+    margin: 0 85em;
+    border: 2px solid black;
+
+
+
+}
+a{color:black;
+
+}
+
+header {
+   
+    background-color: green;
+    padding:.5em;
+    width:8em;
+    height:2.5em;
+}
+
+button#a{
+    
+    background-color: #4ACC1F;
+    padding:.5em;
+}
+
+button#b{
+    
+    background-color: #E53D15;
+    padding:.5em;
+}
+input#buscar{
+  grid-area:s;
+  background-color:white;
+  width:90em;
+  height:2.5em;
+  
+}
+
+
+#flecha{
+    width:1.5em;
+    height:1em;
+}
+#tres{
+    margin:0 0;
+    width:2em;
+    height:2em;
+
+}
+#hola{
+    display:none;
+}
+.mextra {
+    background-color:#6ab368;
+    margin:2% auto;
+    width:80%;
+}
+.q{
+    margin:auto;
+    widows: 15em;;
+    height:15em;
+    border: 1px solid #000;
+}
+.ch{
+    margin:auto 1em;
+   width:17em;
+   height:15em;
+   border:1px solid black;
+}
+.cont{
+    display: grid;
+    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+    grid-template-areas: 
+    "poax pch"
+    "poax pch"
+    ;
+
+}
+.poax{
+    grid-area:poax;
+
+}
+.pch{
+    grid-area:pch;
+}
+table{
+    border:1px solid black;
+
+
+}
+td{
+    border:1px solid green;
+    width:20%;
+}
+
+
+ol{
+    margin:40px auto;
+
+}
+li:last-child{
+    background:green;
+    white-space:pre;
+}
+li{
+    white-space:pre-wrap;
+
+}
+iframe{
+    border-radius:4px;
+    box-shadow:5px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+button:hover{ text-decoration:underline;
+
+
+}
+h3{
+    
+    font-size:1.4em;
+
+}
+h3:hover{ text-decoration:underline;
+
+
+}
+iframe:hover{
+    transform:scale(1.1);
+}
+td:hover{
+    text-decoration:underline;
+}
